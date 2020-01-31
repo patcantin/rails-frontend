@@ -1,0 +1,37 @@
+.navbar-lewagon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 16px 24px;
+  transition: 0.5s background-color ease;
+}
+
+.navbar-lewagon-white {
+  background: white;
+}
+
+.navbar-lewagon .brand{
+  width: 40px;
+}
+
+.navbar-lewagon .navbar-lewagon-actions {
+  display: flex;
+  align-items: center
+}
+.navbar-lewagon .navbar-lewagon-actions .navbar-lewagon-link {
+  margin-left: 24px;
+  color: #999999;
+}
+
+.navbar-lewagon .navbar-lewagon-actions .navbar-lewagon-link:hover {
+  color: #151515;
+}
+
+.navbar-lewagon .navbar-lewagon-actions .avatar {
+  margin-left: 24px;
+}
+
+.navbar-lewagon .dropdown-toggle {
+  cursor: pointer;
+}
